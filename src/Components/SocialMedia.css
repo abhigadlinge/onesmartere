@@ -1,0 +1,31 @@
+.leftheader{
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-left: 2rem;
+}
+
+.head{
+    font-size: 1rem;
+}
+
+.rightheader{
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-right: 2rem;
+
+}
+
+.header{
+    display: flex;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: 1rem 2%;
+
+}

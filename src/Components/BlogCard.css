@@ -1,0 +1,25 @@
+.blogcard{
+    height: 20rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(180, 179, 179);
+    gap: 1rem;
+    padding: .5rem ;
+}
+
+.blogcard:hover{
+    box-shadow: 0rem 0rem 1rem rgb(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.image4 img{
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    height: 10rem;
+}
+
+.blogcontent{
+    text-align: justify;
+}

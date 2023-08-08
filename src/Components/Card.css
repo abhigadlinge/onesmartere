@@ -1,0 +1,42 @@
+.card{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* gap: .5rem; */
+    border: 1px solid #eee;
+    height: 9rem;
+    width: 100%;
+    padding-right: 5rem;
+    overflow-x: hidden;
+    justify-content: center;
+
+    margin-top: 1rem;
+    border-radius: .3rem;
+
+}
+
+.card:hover{
+    box-shadow: 0rem 0rem 1rem rgb(0, 0, 0, 0.1);
+
+}
+
+.image3{
+    width: 14rem;
+    margin-top: 1.2rem;
+    margin-left: .2rem;
+    border-radius: .3rem;
+}
+
+.image {
+    flex: 1 1 50rem;
+}
+.content {
+    flex: 1 1 50rem;
+    margin-left: -4rem;
+    justify-content: center;
+    margin-top: 2.2rem;
+}
+
+.card:hover{
+    background-color: #eee;
+}
